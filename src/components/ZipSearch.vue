@@ -4,7 +4,7 @@
       <ion-col>
         <ion-item>
           <ion-label>Zipcode</ion-label>
-          <ion-input name="pesquisar" :value="zip" @input="zip = $event.target.value" placeholder="Enter US Zipcode"></ion-input>
+          <ion-input name="pesquisar" inputmode="numeric" :value="zip" @input="zip = $event.target.value" placeholder="Enter US Zipcode"></ion-input>
         </ion-item>
       </ion-col>
       <ion-col>
